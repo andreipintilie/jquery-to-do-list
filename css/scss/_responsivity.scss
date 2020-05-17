@@ -1,0 +1,25 @@
+//For Mobile port-view
+@media only screen and (max-width: 767px){
+    #changeTheme { float: left!important; width: 50%; }
+    #removeAll { float: left!important; width: 50%; }
+}
+@media only screen and (max-width: 767px){
+    #firstSection { width: 100%!important; }
+    .container{ width: 100%!important; }
+    .card{ width: 100%!important; }
+    .card-header{ width: 100%!important; }
+    .card-body{ width: 100%!important; }
+    .card-footer{ width: 100%!important; }
+    .only-mobile { display: inherit!important; }
+}
+
+//For PC port-view
+@media only screen and (min-width: 768px){
+    .container{ width: 60%; }
+    .card{ width: 100%; }
+    .card-header{ width: 100%; }
+    .card-body{ width: 100%; }
+    .card-footer{ width: 100%; }
+    .text-left2 { text-align: left!important; }
+    .only-mobile { display: none!important; }
+}

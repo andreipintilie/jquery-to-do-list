@@ -1,0 +1,41 @@
+@import 'colors';
+
+body{
+    background-color: $backgroundColor!important;
+    color: $textColor!important;
+}
+
+#firstSection{
+    form{
+        input[type=text]{
+            padding: 6px;
+            width: 50%;
+            border: 1px solid lighten($textColor, 60%);
+        }
+        #buttonAddReminder{
+            margin-top: -5px;
+            font-size: 16px;
+        }
+        #buttonEditReminder{
+            margin-bottom: 10px!important;
+            font-size: 16px;
+        }
+        p{
+            opacity: 1;
+        }
+    }
+    #reminder{
+        display: inline;
+    }
+    #buttonRemoveReminder{
+        margin-top: -6px;
+        font-size: 16px;
+    }
+    .each{
+        margin: 5px auto;
+    }
+}
+
+
+
+@import 'responsivity';
