@@ -3,7 +3,7 @@
     $SQL_SERVER = 'localhost';
     $SQL_USER = 'root';
     $SQL_PASS = '';
-    $SQL_DATA = 'ajax';
+    $SQL_DATA = 'reminders';
 
     $aHandle = mysqli_connect($SQL_SERVER, $SQL_USER, $SQL_PASS, $SQL_DATA);
 
