@@ -52,7 +52,7 @@
                             $num_rows = mysqli_num_rows($result2);
 
                             if($num_rows == 0){
-                                echo "<p>There are not reminders at the moment.</p>";
+                                echo "<p>There are no reminders at the moment.</p>";
                             }
 
                         ?>
